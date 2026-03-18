@@ -1,4 +1,4 @@
-/****************** YOUR NAME: 
+/****************** YOUR NAME: Rafhy Khan
 
 Some starter CSS has been provided. You are discouraged from modifying the starter CSS.
 
@@ -49,6 +49,11 @@ h1, h2 {
 
 header a {
     color: black;
+    text-decoration: none;
+}
+
+header .flex {
+    padding-left: 350px;
 }
 
 h1 {
@@ -57,15 +62,16 @@ h1 {
 
 h2 {
     font-size: 24px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 h3 {
-    font-size: 18px bold;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 p {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 footer {
@@ -73,8 +79,9 @@ footer {
 }
 
 
-a:hover {
+footer a {
     text-decoration: none;
+    color:black;
 }
 
 
@@ -92,7 +99,8 @@ a:hover {
 - Anchors in the header will be 18px.
 - The logo in the header will be 30px tall and wide, with 10px of space on all sides.
 - The top-level heading and the links in the header will have a line-height of 50px to center them within the header.
-- There will be enough space between the page heading and the links so the last link is flush with the edge of the page. (HINT: Guess-and-check method can be useful here!)
+- There will be enough space between the page heading and the links so the last link is flush with the edge of the page. 
+(HINT: Guess-and-check method can be useful here!)
 - There will be 15px of space between each link.
 - The text in the footer will be centered, with 15px of space between the content and the edge of the footer.
 */
@@ -101,14 +109,16 @@ a:hover {
 
 
 header {
-    color: #c74365;
-    padding-bottom: 30px;
+    background-color: #c74365;
+    margin-bottom: 30px;
+    line-height: 50px;
 }
 
 header a {
     font-size: 18px;
-    line-height: 50px;
-    padding: 7.5px;
+    margin: 7.5px;
+    text-align: right;
+
 }
 
 header img {
@@ -117,14 +127,12 @@ header img {
     padding: 10px;
 }
 
-header h1 {
-    line-height: 50px;
-}
 
 footer {
-    padding-top: 30px;
+    background-color: #c74365;
+    margin-top: 30px;
     text-align: center;
-    margin-bottom: 15px;
+    padding: 15px;
 }
 
 
@@ -151,8 +159,7 @@ footer {
 article {
     background-color: lightgray;
     padding: 15px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin: 15px;
 }
 
 
@@ -183,7 +190,7 @@ article {
     width: 180px;
 }
 
-.fixed-width-flex img {
+.wide-column img {
     width: 120px;
 }
 
@@ -203,7 +210,6 @@ article {
 .light-background h2 {
     margin-top: 10px;
     padding-left: 15px;
-    padding-bottom: 15px;
 }
 
 
@@ -236,12 +242,13 @@ form {
     margin-bottom: 45px;
 }
 
-label {
+.timesheet-content .flex div{
     display: block;
     font-weight: bold;
+    padding: 7.5px;
     text-align: center;
-
-    padding: 15px 0 15px 0;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 input {
@@ -249,6 +256,17 @@ input {
 }
 
 button {
-    
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    align-content: right;
+    margin-left: 500px;
+    width: 100px;
+
+}
+
+button.hover {
+    background-color: grey;
 }
 
