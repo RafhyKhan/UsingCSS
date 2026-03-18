@@ -241,10 +241,8 @@ form {
 .timesheet-content .flex div{
     display: block;
     font-weight: bold;
-    padding: 7.5px;
+    margin: 7.5px;
     text-align: center;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
 
 input {
@@ -257,12 +255,13 @@ button {
     border: 1px solid grey;
     border-radius: 4px;
     align-content: right;
-    margin-left: 505px;
-    width: 100px;
+    margin-left: 499px;
+    width: 109px;
+    height: 21px;
 
 }
 
-button.hover {
+button:hover {
     background-color: grey;
 }
 
