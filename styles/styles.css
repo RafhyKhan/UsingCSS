@@ -52,10 +52,6 @@ header a {
     text-decoration: none;
 }
 
-header .flex {
-    padding-left: 350px;
-}
-
 h1 {
     font-size: 32px;
 }
@@ -261,7 +257,7 @@ button {
     border: 1px solid grey;
     border-radius: 4px;
     align-content: right;
-    margin-left: 500px;
+    margin-left: 505px;
     width: 100px;
 
 }
